@@ -1,0 +1,36 @@
+<style type="text/css">
+
+body{background:url("img/fondo.jpg");} 
+
+.cabeza {
+background-color: rgba(135, 39, 119, 1); 
+}     
+
+.fila {
+ background-color: rgba(185, 56, 109, 0.3);
+padding:20px   30px   40px;         
+}  
+
+.contenido {
+background-color: rgba(135, 75, 119, 1);  
+  
+}
+
+.buscador { 
+   background-color: rgba(135, 39, 119, 1);
+}
+
+ p { 
+     color: black; font-family: Verdana;
+     align-content: center;
+     animation: none;
+    }
+   
+          
+.imagen { 
+ display:block;
+ margin:auto;
+    }
+          
+      
+</style>

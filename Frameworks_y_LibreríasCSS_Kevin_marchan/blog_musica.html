@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Blog</title>  
+
+<style type="text/css">
+  p { color: black; font-family: Verdana; }
+    
+#imagen { 
+    
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate-reverse;
+   
+    }
+    
+
+#contenido { background-color: #ffffff;
+    animation-duration: 3s;
+  animation-name: slidein2;
+  
+  animation-direction: reverse;
+    }
+
+#buscador { background-color: crimson;
+   
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+  animation-direction: normal;
+    }
+    
+@keyframes slidein {
+  from {
+    margin-left:50%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 20%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left:20%;
+    width: 50%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 20%;
+  }
+}
+#cuerpo { background-color:#728282}
+
+  .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover { color: #3B5998;}
+ #social-tw:hover {color: #4099FF;}
+ #social-gp:hover {color: #d34836;}
+ #social-em:hover {color: #f39c12;}
+    
+</style>
+    
+</head>
+<header id="cabecera">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="img/3.png" class="img-circle" width="15%" id="imagen">
+        </div>
+        <div class="col-sm-6 col-sm-offset-10">    
+                <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mi Blog</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Inicio</a></li>
+      <li><a href="#">Artistas</a></li>
+      <li><a href="#">Top 10</a></li>
+      <li><a href="#">Destacados</a></li>
+      <li><a href="#">Curiosidades</a></li>
+      <li><a href="#">Novedades</a></li>
+    </ul>
+    </div>
+    </nav>
+<body id="cuerpo">
+<div class="container">
+<div class="row">
+    <div class="col-sm-8 text-justify" id="contenido"> 
+    <h3>Red Hot Chili Peppers</h3>
+         <center><img src="img/red_hot_chili_peppers.jpg" class="img-rounded" width="60%"></center>
+        <br>
+ <p>
+La historia musical de los Red Hot Chili Peppers comienza en en Los Angeles, en 1982, cuando varios amigos se unen para formar una banda y tocar en locales nocturnos. Los cuatro amigos eran: Michael Balzary (Flea), en el bajo, Hillel Slovak (guitarra), Jack 
+Irons (batería) y Anthony Keidis como vocalista.
+</p>
+<p>
+Su primer gran show fue en un concierto, donde para llamar la atención se desnudaron para actuar, lo que les dio una tremenda publicidad en Los Angeles y les valió para firmar un contrato con una gran discográfica.
+</p>
+<p>
+Un nuevo cambio se gesta en los Red Hot Chili Peppers. Jack Irons regresa y sustituye a Cliff Martínez, volviendo a los orígenes del grupo. Pero algo había cambiado. Los problemas de adicción a las drogas de Slovak empezaban a hacer mella en la calidad del grupo en sus actuaciones.
+</p>
+<p>
+En 1989 el grupo resurgió con nuevos nombres: se inió John Frusciante como guitarrista y Chad Smith en la batería. Junto a Flea y Keidis, ya estaban de nuevo en marcha.
+</p>
+<p>
+Ese mismo año publicaron el álbum 'Mothers Milk', considerado como uno de sus mejores trabajos. Realizaron una gira por todo el mundo que resultó un gran espectáculo.
+</p>
+<p>
+Dos años después publican 'Blood Sugar Sex and Magic' y en 1995 'One Hot Minute'.
+En 1999 batieron todos sus registros con el álbum 'Californication', uno de sus mejores trabajos. Y por fin, Tras una larga espera de tres años llegó el lanzamiento de By the way con 16 canciones repletas de coros pegajosos y notas punzantes.
+</p>
+</div>
+
+
+    <div class="col-sm-4 text-justify" id="buscador">
+        <br> <br> 
+        <br> <br>
+   
+         <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Completa Aquí">
+        </div>
+        <button type="submit" class="btn btn-default">Buscar</button>
+      </form>
+   
+        <br> <br> 
+        <br> <br>
+<div class="table-responsive">
+        <table class="table">
+    <thead>
+      <tr>
+        <th>Biografia</th>
+      </tr>
+    </thead>
+    <tbody>
+         <tr>
+       <td>1984- The Red Hot Chili Peppers</td>
+      </tr>
+         <tr>
+       <td>1985- Freaky Styley</td>
+      </tr>
+         <tr>
+       <td>1987- The Uplift Mofo Party Plan</td>
+      </tr>
+        <tr>
+       <td>1989- Mother's Milk</td>
+      </tr>
+        <tr>
+       <td>1991- Blood Sugar Sex Magik </td>
+      </tr>
+        <tr>
+       <td>1995- One Hot Minute </td>
+      </tr>
+      <tr>
+       <td>1999- Californication </td>
+      </tr>
+      <tr>
+        <td>2002- By the Way</td>
+      </tr>
+      <tr>
+       <td>2004- Live in Hyde Park</td>
+      </tr>
+         <tr>
+       <td>2006- Stadium Arcadium</td>
+      </tr>
+         <tr>
+       <td>2009- Live from London</td>
+      </tr>
+         <tr>
+       <td>2004- Live in Hyde Park</td>
+      </tr>
+         <tr>
+       <td>2011- I'm with You</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <br> <br> 
+    
+    </div>
+  </div>  
+    
+  </div>
+     
+ <!--       JSx    -->
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
